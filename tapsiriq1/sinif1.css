@@ -1,0 +1,40 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: black;
+}
+.div{
+	margin: auto;
+	width: 1300px;
+	height: 450px;
+	background-image: url(../picture/bg.jpg);
+	/*background-repeat: no-repeat;*/
+	background-position: center;
+	background-size: cover;
+	clip-path: polygon(0% 0%,100% 0%, 100% 85%,50% 100%,0% 85%);
+	margin-top: 10px
+}
+.p{
+	color:  #2589BD;
+}
+
+#span{
+	font-size: 12px;
+	color: #FCDEBE;
+	margin-left: 0px;
+}
+
+span {
+  font-size: 90px;
+    margin-left: 520px;
+  position: relative;
+  color: #FCDEBE;
+}
+
+span:before {
+  content: attr(data-char);
+  position: absolute;
+  width: 50%;
+  overflow: hidden;
+  color: #2589BD;
+}
